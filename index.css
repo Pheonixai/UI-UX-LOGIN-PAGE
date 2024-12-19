@@ -1,0 +1,53 @@
+body {
+    margin: 80px auto;
+    text-align: center;
+    background: linear-gradient(rgb(236, 216, 190), white);
+    font-family:Arial, Helvetica, sans-serif;
+    color: rgba(48, 12, 7, 0.9);
+}
+form {
+    background-color: cornsilk;
+    padding: 25px;
+    color: black;
+    margin: auto;
+    width: 300px;
+    box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.5);
+}
+label {
+    text-align: right;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+button {
+    background-color: rgba(48, 12, 7, 0.9);
+    width: 280px;
+    border-radius: 30px;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+}
+#signup {
+    border: 3px solid rgba(48, 12, 7, 0.9);
+    margin: 20px auto;
+    padding: 8px;
+    width: 252px;
+    border-radius: 30px;
+}
+#signup:hover {
+    background-color: rgba(48, 12, 7, 0.9);
+    color: cornsilk;
+}
+input {
+    height: 30px;
+    width: 250px;
+    text-align: center;
+    border-radius: 5px;
+    border: 10px double rgba(48, 12, 7, 0.9);
+    margin: 5px;
+}
+
+a {
+    color: rgba(48, 12, 7, 0.9);
+    font-weight: bold;
+}
